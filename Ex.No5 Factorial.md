@@ -12,20 +12,15 @@ To  write  a logic program for finding the factorial of given number using SWI-P
 6. STEP 4: Stop the program.
 
 ### Program:
-move(1,X,Y,_) :-  
-    write('Move top disk from '), 
-    write(X), 
-    write(' to '), 
-    write(Y), 
-    nl. 
-move(N,X,Y,Z) :- 
-    N>1, 
-    M is N-1, 
-    move(M,X,Z,Y), 
-    move(1,X,Y,_), 
-    move(M,Z,Y,X).
+factorial(0,1).
+factorial(A,B):-  
+           A > 0, 
+           C is A-1,
+           factorial(C,D),
+           B is A*D.
 ### Output:
-![image](https://github.com/user-attachments/assets/12dca142-3fc1-4398-b0d7-320e650cc66a)
+![image](https://github.com/user-attachments/assets/8505e165-063e-4452-80b6-3967a3de3695)
+
 
 
 
