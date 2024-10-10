@@ -41,7 +41,8 @@ fulladder(A, B, Cin, Sum, Cout) :-
     or(C1, C2, Cout).
 
 ### Output:
-<img width="476" alt="image" src="https://github.com/user-attachments/assets/91f021db-e434-421a-8b54-7b6a298c05b3">
+<img width="470" alt="image" src="https://github.com/user-attachments/assets/7a49b991-ad60-4c12-9af0-4a8b1ec426b4">
+
 
 ### Result:
 Thus the truth table of circuit verified sucessfully.
