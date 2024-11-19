@@ -1,6 +1,6 @@
 # Ex.No: 10 Learning – Use Supervised Learning  
-### DATE:                                                                            
-### REGISTER NUMBER : 
+### DATE: 24/10/24                                                                           
+### REGISTER NUMBER : 212222060082
 ### AIM: 
 To write a program to train the classifier for heart disease..
 ###  Algorithm:
@@ -59,6 +59,7 @@ Y = heart_data['target']
 print(X)
 print(Y)
 ```
+
 
 ###Model Training
 ```
