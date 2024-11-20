@@ -26,7 +26,6 @@ heart_data = pd.read_csv('/content/data.csv')
 # print first 5 rows of the dataset
 heart_data.head()
 ```
-![image](https://github.com/yuvaraj-csk/AI_Lab_2023-24/assets/134052574/626476c1-9147-4e5f-b823-8fdc0ac9814e)
 
 ###heart_data.info()
 ```
